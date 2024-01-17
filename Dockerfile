@@ -1,5 +1,5 @@
-# Use latest official Python image
-FROM python:latest
+# Use latest official Python-slim image
+FROM python:3.12-slim
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
